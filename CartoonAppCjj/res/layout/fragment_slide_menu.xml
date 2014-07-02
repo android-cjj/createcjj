@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/navigation_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/ab_slide_menu" />
+
+    <View
+        android:id="@+id/ab_top_line"
+        android:layout_width="match_parent"
+        android:layout_height="2.0px"
+        android:background="@drawable/menu_divid_line" />
+
+    <ExpandableListView
+        android:id="@+id/elv_slide_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+
+    <View
+        android:id="@+id/ab_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="1.0px"
+        android:layout_above="@+id/ab_bottom"
+        android:background="#ff3d3d3d" />
+
+    <include layout="@layout/item_menu_slide" />
+
+</LinearLayout>

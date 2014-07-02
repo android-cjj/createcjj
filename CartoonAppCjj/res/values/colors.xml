@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_default_bg_f5">#f5f5f5</color>
+    <color name="app_default_bg_f3">#f3f3f3</color>
+    <color name="cs_51">#515151</color>
+    <color name="white">#ffffff</color>
+    <color name="tv_blue">#87CEFF</color>
+    <color name="tv_gray">#343434</color>
+    <color name="home_group_item_e4">#E4E4E4</color>
+    <color name="home_group_item_txt_67">#676767</color>
+    <color name="cs_47">#474747</color>
+    <color name="cs_616365">#616365</color>
+    <color name="bg_f3f2f1">#F3F2F1</color>
+    <color name="cs_ff7f00">#FF7F00</color>
+    <color name="cs_66">#666666</color>
+    <color name="org_text1">#ff7f00</color>
+      <color name="slide_bar_bg">#ff2b2b2b</color>
+
+</resources>

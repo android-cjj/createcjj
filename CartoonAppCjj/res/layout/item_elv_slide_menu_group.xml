@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_slideMenuGroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_menuGroup"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:text="操作你哈"
+        android:textColor="@color/org_text1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/ab_top_line"
+        android:layout_width="match_parent"
+        android:layout_height="2.0px"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/menu_divid_line" />
+
+</LinearLayout>

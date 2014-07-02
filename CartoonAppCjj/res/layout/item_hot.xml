@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical" 
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@color/app_default_bg_f3">
+    
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="@drawable/selector_lv_dynamic_message_img">
+    
+    <ImageView 
+        android:id="@+id/img_dynamicMsg"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"/>
+    </FrameLayout>
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/selector_lv_dynamic_message_text">
+    
+        <TextView
+            android:id="@+id/tv_dynamicMsgName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/background_dark"
+            />
+        
+        <TextView
+            android:id="@+id/tv_dynamicMsgContent"
+            android:layout_below="@id/tv_dynamicMsgName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/cs_616365"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="5dp"
+            android:singleLine="true"
+            />
+        
+        
+    </RelativeLayout>
+    
+
+</LinearLayout>

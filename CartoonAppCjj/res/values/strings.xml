@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CartoonAppCjj</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="viewpager">ViewPager</string>
+    <string name="about_intro">由于漫画本身的发展形成了现代故事漫画的表现形式，将影视艺术融入漫画之中，使得漫画与动画更容易结合，影视艺术独特的地方在于它能通过镜头的推拉摇移和片段剪辑的蒙太奇技巧来表达想法和感受。
+漫画正是吸收了影视艺术的这两个特点。当要讲述的故事越发复杂、人物越发丰富的时候，用传统单线式叙事的方法就越行不通，蒙太奇的介入就成为一种需要了；
+当漫画家在传统表现手段中无法找到更合适的抒发感情的方法的时候；当读者需要作品有更强的冲击力和表现力的时候，各种镜头的灵活运用就成为一种必需了。
+一部现代故事漫画往往集远、中、近、特四种镜头于一身，漫画家往往能熟练地运用镜头的移动和各种蒙太奇剪接，对故事特定部分的情绪和氛围进行渲染。
+这就是现代故事漫画容易和动画结合的一个原因，因为它天生就像动画的分镜头剧本，读者在看漫画时仿佛就是在看一部电影。正是有着这样的相似性，所以如今将动画和漫画合称为“动漫”。
+日本是制作与发行动漫最著名的国家，被称为动漫的国度。</string>
+  <string name="slide_exit_app">退出</string>
+
+</resources>

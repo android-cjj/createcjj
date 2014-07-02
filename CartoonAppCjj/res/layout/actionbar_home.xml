@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_match_wrap"
+    android:background="@color/app_default_bg_f5"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ibtn_left_menu"
+            android:layout_width="48dp"
+            android:layout_height="@dimen/actionbar_height"
+            android:background="@android:color/transparent"
+            android:src="@drawable/selector_side_menu" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/line_actionbar_divider" />
+
+        <TextView
+            android:text="CJJ漫画"
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:paddingTop="2dp"
+            android:singleLine="true"
+            android:textColor="@color/cs_51"
+            android:textSize="18sp" />
+
+       
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/bottom_bar_shadow" />
+
+</LinearLayout>

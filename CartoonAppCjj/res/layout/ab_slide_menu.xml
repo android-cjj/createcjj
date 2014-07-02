@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ab_top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" 
+    android:background="@color/slide_bar_bg">
+    
+    
+   <ImageView 
+        android:scaleType="fitXY"
+        android:id="@+id/img_head"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/img_user_default"/>
+    
+    
+    <TextView 
+        android:id="@+id/tv_title"
+        android:layout_marginLeft="15dp"
+        style="@style/style_double_wrap"
+        android:textColor="@color/org_text1"
+        android:textSize="18sp"
+        android:text="我的头像"
+        android:gravity="center_vertical"/>
+    
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:fadingEdge="none"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/qq"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:shadowDx="3.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="5.0"
+        android:singleLine="true"
+        android:text="^_^ 拉拉更健康。。。"
+        android:textColor="@color/tv_blue"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/img_bigShopLogo"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_marginTop="-55dp"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/about_bg4" />
+
+    <com.cjj.shopapp.custom.view.PullScrollView
+        android:id="@+id/sv_about"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp" >
+
+                <LinearLayout
+                    android:id="@+id/ll_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@android:color/transparent"
+                    android:orientation="horizontal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ll_top"
+                    android:background="@color/app_default_bg_f5"
+                    android:orientation="vertical" >
+
+                    <FrameLayout
+                        android:id="@+id/user_divider_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="21dp"
+                        android:layout_marginRight="21dp"
+                        android:layout_marginTop="50dp" >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginTop="5dp"
+                            android:background="#DFDFDF"
+                            android:contentDescription="@null" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="29dp"
+                            android:contentDescription="@null"
+                            android:src="@drawable/line_arrow_up" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:maxLines="5"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/about_intro"
+                        android:textColor="@color/cs_66"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv_loadmore"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center_vertical|right"
+                        android:paddingLeft="21dp"
+                        android:paddingRight="21dp"
+                        android:text="查看更多 "
+                        android:textColor="@color/tv_blue"
+                        android:textSize="15sp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/tv_otherContact"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="-2dp"
+                            android:background="@drawable/card_whole"
+                            android:gravity="center_vertical|left"
+                            android:padding="10dp"
+                            android:text="联系方式 "
+                            android:textColor="#515151"
+                            android:textSize="15sp" />
+
+                        <ImageView
+                            android:id="@+id/img_otherContactArrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|right"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/jiantou_down" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_otherContactContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/qq"
+                        android:drawablePadding="4dp"
+                        android:gravity="center_vertical|left"
+                        android:padding="6dp"
+                        android:text="QQ : 929178101"
+                        android:textColor="@color/tv_blue"
+                        android:textSize="16sp"
+                        android:visibility="gone"
+                         />
+
+                    <TextView
+                        android:id="@+id/tv_mainSales"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="@drawable/card_whole"
+                        android:gravity="center_vertical|left"
+                        android:padding="10dp"
+                        android:text="SUMMARY : MY APP MY STYLE _by_CJJ"
+                        android:textColor="@color/tv_blue"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/img_shopLogo"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:layout_marginLeft="21dp"
+                    android:background="@android:color/white"
+                    android:contentDescription="@null"
+                    android:padding="1px"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_about" />
+
+                <TextView
+                    android:id="@+id/tv_shopName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_toRightOf="@id/img_shopLogo"
+                    android:ellipsize="end"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="3.0"
+                    android:shadowDy="3.0"
+                    android:shadowRadius="5.0"
+                    android:singleLine="true"
+                    android:text="CJJ漫画"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_shopName"
+                    android:layout_marginLeft="103dp"
+                    android:layout_marginTop="4dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text=" V1.0"
+                    android:textColor="@color/cs_66"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.cjj.shopapp.custom.view.PullScrollView>
+
+</RelativeLayout>

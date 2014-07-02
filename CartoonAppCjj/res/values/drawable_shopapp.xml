@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="rbtn_home_tab_menu">#efefef</drawable>
+    
+</resources>
